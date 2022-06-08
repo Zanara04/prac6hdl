@@ -1,0 +1,10 @@
+// testing negative intergers and 0's with a mixture, using boundry cases 
+push this 0
+push this 1
+push this 9
+
+push local 0
+push local 1
+push local 99
+
+

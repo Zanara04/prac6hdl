@@ -1,0 +1,17 @@
+// testing not with different labels, negatives and zeros and such, checks second on stack to top of stack
+//expected: stat 0 = , arg 0 = , this 0 = 
+push constant 0
+not
+pop static 0
+
+push local 0
+not
+pop argument 0
+
+push argument 0
+not
+pop static 0
+
+push that 0
+not
+pop this 0

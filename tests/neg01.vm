@@ -1,0 +1,13 @@
+// testing various negative changings, including zeros, negatives, and positive integers
+//expected: arg 0 = -5, ths 0 = 6, tht 0 = 0
+push constant 5
+neg
+pop argument 0
+
+push local 0
+neg
+pop this 0
+
+push argument 1
+neg
+pop that 0

@@ -1,0 +1,14 @@
+// testing if popping works for all. local = 5, arg = 4, this =3, so on...
+push constant 0
+push constant 1
+push constant 2
+push constant 3
+push constant 4
+push constant 5
+
+pop local 0
+pop argument 0
+pop this 0
+pop that 0
+pop temp 0
+pop static 0

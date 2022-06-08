@@ -1,0 +1,22 @@
+// testing eq with different labels, negatives and zeros and such
+//expected: this 0 = -1, this 1 = 0, this 2 = -1, this 3 = 0
+push constant 1
+push local 0
+eq
+pop this 0
+
+push constant 0
+push constant 9
+eq
+pop this 1
+
+push argument 0
+push constant 0
+eq
+pop this 2
+
+push constant 3
+push that 0
+eq
+pop this 3
+

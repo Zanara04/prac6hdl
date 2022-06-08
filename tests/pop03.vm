@@ -1,0 +1,8 @@
+// testing if popping works for all. testing if that can be overwritten three times in a row.
+push local 0
+push argument 0
+push this 0
+
+pop that 0
+pop that 0
+pop that 0

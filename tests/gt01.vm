@@ -1,0 +1,22 @@
+// testing gt with different labels, negatives and zeros and such, checks second on stack to top of stack
+//expected: this 0 = 0, this 1 = -1, this 2 = -1, this 3 = 0
+push constant 1
+push local 0
+gt
+pop this 0
+
+push constant 9
+push constant 0
+gt
+pop this 1
+
+push argument 0
+push constant 0
+gt
+pop this 2
+
+push constant 3
+push that 0
+gt
+pop this 3
+

@@ -1,0 +1,16 @@
+// testing or with different labels, negatives and zeros and such, checks second on stack to top of stack
+//expected: stat 0 = -1, stat 1 = -1, stat 2 = 7
+push constant 0
+push local 0
+or
+pop static 0
+
+push local 0
+push local 1
+or
+pop static 1
+
+push argument 0
+push argument 1
+or
+pop static 2

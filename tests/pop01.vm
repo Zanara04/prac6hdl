@@ -1,0 +1,8 @@
+// testing if popping works in general, local should be 2, argument should be 1
+push constant 1
+push constant 2
+
+pop local 0
+pop argument 0
+
+
